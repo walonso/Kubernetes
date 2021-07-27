@@ -132,4 +132,12 @@ As soon as you create the YAML file:
 > vi nginx-deployment.yaml (edit the number of replicas) to 2
 ![image](https://user-images.githubusercontent.com/4542664/127191185-fd270748-018d-4d51-8fe9-dcf4ca64519a.png)
 
+> kubectl apply -f nginx-deployment.yaml
+Now we cann see, we have 2 pods:
+![image](https://user-images.githubusercontent.com/4542664/127191805-661f616f-b582-4613-909b-3e63a4bdd0e4.png)
+
+Each node has a different ip:
+![image](https://user-images.githubusercontent.com/4542664/127192239-974e7cc2-7d20-4409-9ea0-4567f3451432.png)
+
+
 
